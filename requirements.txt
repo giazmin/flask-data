@@ -12,7 +12,6 @@ bs4==0.0.1
 click==6.6
 gunicorn==19.6.0
 itsdangerous==0.24
-matplotlib==1.1.1
 numpy==1.9.1
 pandas==0.19.0
 pipdeptree==0.7.0
