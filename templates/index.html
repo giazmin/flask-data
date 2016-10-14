@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask View</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+  </head>
+  <body>
+  	<h1>Plotting BDeer VMWorld 2017 - Included Data</h1>
+  	<div id="scatterPlot" style="width: 100%; height: 500px;"></div>
+  	<div id="barGraph" style="width: 480px; height: 500px;"></div>
+
+
+  	{% block javascript %}
+    <script type="text/javascript">
+        {% include "main.js" %}
+    </script>
+	{% endblock %}
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
